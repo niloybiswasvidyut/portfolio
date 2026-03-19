@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Niloy Biswas</title>
+  <meta name="description" content="Personal portfolio website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main Navigation">
+      <a href="#home" class="brand">Niloy Biswas</a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Hi, I am Niloy Biswas</p>
+        <h2>Developer | Tech Enthusiast | Problem Solver | Photographer</h2>
+        <p>
+          I design and develop websites that are responsive, user-friendly, and made to solve real problems. I also work with PC components and build custom PCs for gaming and productivity. Let's create something amazing together!
+        </p>
+        <a href="#projects" class="btn">Workgraphy</a>
+      </div>
+      <div class="hero-shape" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container reveal">
+        <div class="hero-photo-frame">
+          <img src="./img/profile.jpg" alt="Niloy Biswas profile photo" class="hero-photo" />
+        </div>
+        <div class="about-copy">
+          <h2>About Me</h2>
+          <p>
+            I am a developer focused on building beautiful and functional web applications.
+            I enjoy turning ideas into interactive products and continuously improving my skills.
+            I am an aspirant for a career in software engineering and am passionate about learning new technologies and best practices in the industry.
+            Currently, I am doing a Bachelor of Science(Engineering) in Computer Science and Engineering and am honing my skills in front-end development and exploring the world of PC building and hardware. I am always eager to take on new challenges and collaborate with others to create impactful solutions. I am also passionate about photography, I have clicked and shoted many photos and short videos and have a good collection of photos and short clips. I am also a PC builder, I have built many PCs for gaming and productivity. I am always looking for new opportunities to grow and contribute to the tech community.    
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container reveal">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">HTML5</article>
+          <article class="skill-card">CSS3</article>
+          <article class="skill-card">JavaScript</article>
+          <article class="skill-card">PHP</article>
+          <article class="skill-card">MongoDB and MySQL</article>
+          <article class="skill-card">Responsive Design</article>
+          <article class="skill-card">Git & GitHub</article>
+          <article class="skill-card">UI/UX Basics</article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>A Business Inventory Management WebApp for tracking stock levels, sales, customers and employee records.</p>
+          </article>
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>A Money Management WebApp for tracking expenses and income.</p>
+          </article>
+          <article class="project-card">
+            <h3>Project Three</h3>
+            <p>A Currency Converter WebApp for real-time exchange rate calculations using API.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container reveal">
+        <h2>Contact</h2>
+        <p>Have a project in mind? Let us build something great together.</p>
+        <p>Email: niloybiswasvidyut@gmail.com</p>
+        <br>
+        <div class="socialmedia">
+            <a href="https://www.linkedin.com/in/niloybiswasvidyut/" target="_blank" rel="noopener" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.github.com/niloybiswasvidyut/" target="_blank" rel="noopener" class="social-link"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/niloybiswasvidyut/" target="_blank" rel="noopener" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/niloybiswasvidyut/" target="_blank" rel="noopener" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Niloy Biswas. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/e859062367.js" crossorigin="anonymous"></script>
+</body>
+</html>
